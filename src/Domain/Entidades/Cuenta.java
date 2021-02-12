@@ -16,6 +16,14 @@ public class Cuenta {
     private String correo;
     private String contraseña;
 
+    public Cuenta(String nombre, String apellido, String usuario, String correo, String contraseña) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.usuario = usuario;
+        this.correo = correo;
+        this.contraseña = contraseña;
+    }
+
     public String getNombre() {
         return nombre;
     }
